@@ -45,7 +45,7 @@ if tweets:
             st.session_state.current_tweet = random.choice(tweets)
             st.rerun()
 
-    st.info("📢 Use hashtag #WorldCultureFlimFestivel or #WCFF")
+    st.info("📢 Use hashtag #WCFF")
 
 else:
     st.error("No valid tweets found or failed to load sheet.")
