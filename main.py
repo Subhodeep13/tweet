@@ -35,7 +35,7 @@ if tweets:
     st.subheader("Current Tweet")
 
     # Display tweet
-    st.text_area("Tweet", value=st.session_state.current_tweet, height=150, disabled=True)
+    st.text_area("Tweet", value=st.session_state.current_tweet, height=150)
 
     # Buttons
     col1, col2 = st.columns(2)
@@ -45,8 +45,8 @@ if tweets:
             st.session_state.current_tweet = random.choice(tweets)
             st.rerun()
 
-    st.info("📢 Use hashtag #GratitudetoGurudev #GuruPurnima2025")
-    st.info("📢 tag @Gurudev @ArtofLiving")
+
+
 
 else:
     st.error("No valid tweets found or failed to load sheet.")
