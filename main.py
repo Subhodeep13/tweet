@@ -7,7 +7,7 @@ st.set_page_config(page_title="Random Tweet Display", page_icon="🐦", layout="
 st.title("🐦 Random Tweet Display")
 
 # Google Sheet ID and URL
-sheet_id = "12LZUSp6xwBfmuEM9qcWsvx_xiAYllMrkTsBMkMNvk-c"
+sheet_id = "1cSUKodL-VbDtEpmpPnvtS8FAcKM72GHdpKAgyN3op_4"
 csv_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv"
 
 # Load tweet data
